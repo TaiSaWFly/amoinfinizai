@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/amoinfinizai/static/css/main.40a18bf5.css",
+    "main.js": "/amoinfinizai/static/js/main.7d9257f5.js",
+    "static/media/custimize_image.webp": "/amoinfinizai/static/media/custimize_image.ab1d2fc2dfe9a1956850.webp",
+    "static/media/unleash_gaming_image.webp": "/amoinfinizai/static/media/unleash_gaming_image.253def4afd6ab87ecd62.webp",
+    "static/media/article_2.webp": "/amoinfinizai/static/media/article_2.73473ab1e25eab696175.webp",
+    "static/media/article_5.webp": "/amoinfinizai/static/media/article_5.2e7badafdadb6957da05.webp",
+    "static/media/article_4.webp": "/amoinfinizai/static/media/article_4.854f9cd700b5fdc1e6fd.webp",
+    "static/media/custimize_image_1.webp": "/amoinfinizai/static/media/custimize_image_1.6268c95816a016c21199.webp",
+    "static/media/custimize_image_2.webp": "/amoinfinizai/static/media/custimize_image_2.2f9469b729f1d34af0ce.webp",
+    "static/media/custimize_image_3.webp": "/amoinfinizai/static/media/custimize_image_3.397c5f5ee4ab8ff31442.webp",
+    "static/media/article_3.webp": "/amoinfinizai/static/media/article_3.0dd51114430e99dc5624.webp",
+    "static/media/article_1.webp": "/amoinfinizai/static/media/article_1.6f49e9d15d2b3b7d764c.webp",
+    "static/media/logo_footer.svg": "/amoinfinizai/static/media/logo_footer.91000bb5c55b684f9b2db95e0d115ae7.svg",
+    "static/media/logo.svg": "/amoinfinizai/static/media/logo.1877e0670939901d8dff6ae0f31ad706.svg",
+    "static/media/fire.svg": "/amoinfinizai/static/media/fire.84116597e0dd9ef3945e139145383b1e.svg",
+    "static/media/cart.svg": "/amoinfinizai/static/media/cart.2572117c63c21c5d611f0942a85084b7.svg",
+    "index.html": "/amoinfinizai/index.html",
+    "static/media/line.svg": "/amoinfinizai/static/media/line.53f72d741bd53582cfb7f08074fd384e.svg",
+    "main.40a18bf5.css.map": "/amoinfinizai/static/css/main.40a18bf5.css.map",
+    "main.7d9257f5.js.map": "/amoinfinizai/static/js/main.7d9257f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a18bf5.css",
+    "static/js/main.7d9257f5.js"
+  ]
+}
