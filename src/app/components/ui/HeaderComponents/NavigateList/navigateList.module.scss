@@ -1,0 +1,57 @@
+@import "../../../../../styles/colors.scss";
+
+.navigate_list {
+    display: flex;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-transform: capitalize;
+
+    & li {
+        margin-right: 60px;
+
+        & a {
+            color: $white;
+            transition: color 0.2s ease-in-out;
+        }
+
+        &:first-of-type {
+            & a {
+                color: $yellow;
+
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &:hover {
+            & a {
+                color: $yellow;
+
+                &:first-of-type {
+                    & a {
+                        color: $blue;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 620px) {
+            margin: 0;
+        }
+
+        @media (max-width: 400px) {
+            &:last-of-type {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 620px) {
+        justify-content: space-around;
+    }
+}

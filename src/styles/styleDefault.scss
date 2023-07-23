@@ -1,0 +1,64 @@
+@import "./colors.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $gray;
+    cursor: pointer;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    padding: 2.1rem 3.4rem;
+
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    color: $white;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+
+    cursor: pointer;
+    background-color: $blue;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: $blue;
+        background-color: $white;
+        border-color: $blue;
+    }
+
+    @media (max-width: 935px) {
+        padding: 1.5rem 2.7rem;
+    }
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

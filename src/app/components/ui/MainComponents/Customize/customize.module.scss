@@ -1,0 +1,135 @@
+@import "../../../../../styles/colors.scss";
+
+.customize {
+    background-color: #2a313c;
+}
+
+.customize_wrap {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+
+    @media (max-width: 1225px) {
+        justify-content: flex-end;
+    }
+
+    @media (max-width: 850px) {
+        justify-content: center;
+    }
+}
+
+.customize_image {
+    width: 100%;
+    max-width: 596px;
+
+    & img {
+        height: 100%;
+    }
+
+    @media (max-width: 1225px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.customize_info {
+    width: 100%;
+    max-width: 596px;
+    padding: 82px 0;
+
+    position: relative;
+    z-index: 100;
+
+    @media (max-width: 1225px) {
+        & span {
+            color: $white;
+        }
+    }
+}
+
+.customize_info_title {
+    margin-top: 12px;
+    margin-bottom: 38px;
+
+    font-size: 6.4rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+
+    @media (max-width: 1200px) {
+        font-size: 5.4rem;
+    }
+
+    @media (max-width: 635px) {
+        font-size: 4.4rem;
+        text-align: center;
+    }
+}
+
+.customize_info_text {
+    margin-bottom: 54px;
+
+    font-size: 2rem;
+    line-height: 1.5;
+    color: $gray;
+
+    @media (max-width: 1225px) {
+        color: $white;
+    }
+
+    @media (max-width: 635px) {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+
+.customize_info__image_list {
+    display: flex;
+
+    & li {
+        padding-right: 19px;
+        margin-right: -11px;
+        cursor: pointer;
+
+        & img {
+            background-color: #2a313c;
+            border: 11px solid transparent;
+            border-radius: 20px;
+            transition: border-color 0.2s ease-in-out;
+        }
+
+        &:last-of-type {
+            padding-right: 0;
+            margin-right: 0;
+        }
+
+        &:first-of-type {
+            & img {
+                border: 11px solid #3b3d46;
+                border-radius: 20px;
+                transition: border-color 0.2s ease-in-out;
+            }
+        }
+
+        &:hover {
+            & img {
+                border-color: #3b3d46;
+            }
+        }
+
+        @media (max-width: 635px) {
+            margin-bottom: 11px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @media (max-width: 635px) {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

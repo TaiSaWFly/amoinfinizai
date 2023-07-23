@@ -1,0 +1,179 @@
+@import "../../../../../styles/colors.scss";
+
+.unleash_gaming {
+    padding: 210px 0 250px 0;
+
+    @media (max-width: 1024px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 620px) {
+        padding: 70px 0;
+    }
+}
+
+.unleash_gaming__wrap {
+    display: flex;
+
+    @media (max-width: 850px) {
+        flex-direction: column;
+    }
+}
+
+.unleash_gaming__info {
+    width: 50%;
+    position: relative;
+
+    @media (max-width: 1410px) {
+        padding-left: 30px;
+    }
+
+    @media (max-width: 850px) {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    @media (max-width: 525px) {
+        padding-left: 0;
+
+        & span {
+            &:first-of-type {
+                color: $white;
+            }
+        }
+    }
+}
+
+.unleash_gaming__title {
+    margin-top: 16px;
+    margin-bottom: 43px;
+    font-size: 7.2rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+
+    @media (max-width: 1200px) {
+        font-size: 6.2rem;
+    }
+
+    @media (max-width: 1100px) {
+        font-size: 5.2rem;
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 4.2rem;
+    }
+
+    @media (max-width: 850px) {
+        text-align: center;
+    }
+}
+
+.unleash_gaming__title_trait {
+    position: relative;
+
+    & svg {
+        width: 100%;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+}
+
+.unleash_gaming__text {
+    margin-bottom: 53px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $gray;
+
+    @media (max-width: 935px) {
+        font-size: 1.6rem;
+        margin-bottom: 35px;
+    }
+
+    @media (max-width: 850px) {
+        text-align: center;
+        color: $white;
+    }
+}
+
+.unleash_gaming__actions {
+    & a {
+        margin-left: 40px;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        color: $white;
+
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: $blue;
+        }
+
+        @media (max-width: 525px) {
+            margin-left: 0;
+        }
+    }
+
+    @media (max-width: 525px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & button {
+            border-color: $white;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.unleash_gaming__social {
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    transform: rotate(-90deg);
+
+    & a {
+        margin-right: 50px;
+        font-size: 1.1rem;
+        line-height: 2.5;
+        text-transform: uppercase;
+
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: $white;
+        }
+
+        @media (max-width: 525px) {
+            color: $white;
+
+            &:last-of-type {
+                margin: 0;
+            }
+
+            &:hover {
+                color: $yellow;
+            }
+        }
+    }
+
+    @media (max-width: 1410px) {
+        left: -165px;
+    }
+
+    @media (max-width: 525px) {
+        margin-bottom: 16px;
+        text-align: center;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.unleash_gaming__image {
+    width: 50%;
+
+    @media (max-width: 850px) {
+        width: 100%;
+    }
+}

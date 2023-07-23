@@ -1,0 +1,78 @@
+@import "../../../../styles/colors.scss";
+
+.footer {
+    padding-top: 130px;
+    padding-bottom: 175px;
+    background-color: #222730;
+
+    @media (max-width: 1024px) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 620px) {
+        padding: 70px 0;
+    }
+}
+
+.footer_wrap {
+    display: flex;
+
+    @media (max-width: 900px) {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.footer_info {
+    width: 100%;
+    max-width: 290px;
+    margin-right: 150px;
+
+    & p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: $gray;
+    }
+
+    @media (max-width: 900px) {
+        margin-right: 0;
+    }
+
+    @media (max-width: 620px) {
+        margin-bottom: 30px;
+    }
+}
+
+.footer_info_logo {
+    margin-bottom: 35px;
+}
+
+.footer_navigate {
+    display: flex;
+}
+
+.footer_navigate__list {
+    &:first-of-type {
+        margin-right: 150px;
+    }
+
+    & li {
+        font-size: 1.5rem;
+        line-height: 2.5;
+        color: $gray;
+        text-transform: capitalize;
+    }
+
+    @media (max-width: 730px) {
+        &:first-of-type {
+            margin-right: 50px;
+        }
+    }
+}
+
+.footer_navigate__list_title {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    text-transform: capitalize;
+}

@@ -1,0 +1,32 @@
+@import "./colors.scss";
+@import "./styleDefault.scss";
+
+html {
+    font-size: 10px;
+    line-height: 1;
+}
+
+body {
+    margin: 0;
+
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    color: $white;
+    cursor: default;
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 55%,
+        rgba(87, 184, 255, 1) 55%
+    );
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}

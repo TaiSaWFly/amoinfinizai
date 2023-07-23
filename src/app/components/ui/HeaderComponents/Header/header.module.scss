@@ -1,0 +1,23 @@
+.header {
+    padding-top: 20px;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 730px) {
+        justify-content: space-around;
+    }
+
+    @media (max-width: 620px) {
+        display: block;
+    }
+}
+
+.header__logo {
+    @media (max-width: 730px) {
+        display: none;
+    }
+}
